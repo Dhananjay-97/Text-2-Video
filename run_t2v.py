@@ -3,7 +3,7 @@ import imageio
 from direct2v_zeroshot import DirecT2VPipeline
 
 model_id = "runwayml/stable-diffusion-v1-5"
-pipe_ours = DirecT2VPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
+pipe = DirecT2VPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
 
 # Frame-level prompt for each frame
 prompts = [
@@ -18,6 +18,6 @@ prompts = [
 ]
 
 # DirecT2V sample
-result = pipe_ours(prompt=prompts, generator=torch.Generator('cuda').manual_seed(10)).images
+result = pipe(prompt=prompts, generator=torch.Generator('cuda').manual_seed(10)).images
 result = [(r * 255).astype("uint8") for r in result]
 imageio.mimsave("video_ours.mp4", result, fps=6)
