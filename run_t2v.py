@@ -3,7 +3,7 @@ import imageio
 from t2v_main import T2VPipeline
 
 model_id = "runwayml/stable-diffusion-v1-5"
-pipe = DirecT2VPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
+pipe = T2VPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
 
 # Frame-level prompt for each frame
 prompts = [
