@@ -1,6 +1,6 @@
 # Text-to-Video Generation
 
-## 🎥 Zero-shot Video Demo
+## Video Demo
 
 https://youtube.com/shorts/Qg73QNG7lyI?si=x98I1HVUy4rvQe2x
 
