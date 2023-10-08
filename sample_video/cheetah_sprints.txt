@@ -1,0 +1,18 @@
+prompts = [
+    "A cheetah resting in the tall grass of the savannah.",
+    "The sun setting in the distance, casting a warm glow.",
+    "The cheetah's sleek and muscular body at rest.",
+    "A gentle breeze rustling the grass around the cheetah.",
+    "Suddenly, the cheetah's ears perk up, alert and attentive.",
+    "The cheetah's tail flicks nervously.",
+    "Close-up on the cheetah's intense, focused eyes.",
+    "Tension in the air as the cheetah prepares to sprint.",
+    "The cheetah's powerful hind legs coiled, ready to launch.",
+    "Dust kicking up as the cheetah explodes into motion.",
+    "Blurred motion as the cheetah accelerates at full speed.",
+    "The ground seeming to blur beneath the cheetah's feet.",
+    "Graceful stride of the cheetah as it runs effortlessly.",
+    "Muscles rippling with each powerful stride.",
+    "Wind ruffling the fur on the cheetah's back.",
+    "The savannah landscape passing in a blur as the cheetah sprints away."
+]
