@@ -1,6 +1,7 @@
 # Text-to-Video Generation
 
-**Overall pipeline of T2V consists of two parts: 
+## pipeline of T2V consists of two parts: 
+
 1. user prompt with
 2. video generation with a diffusion (Stable Diffusion).
 
