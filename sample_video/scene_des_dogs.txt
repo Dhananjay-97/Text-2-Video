@@ -1,0 +1,10 @@
+prompts = [
+    "A corgi is running on a grassy field, its ears flopping as it moves.",
+    "The corgi continues running, a second corgi starts to appear in the background.",
+    "The second corgi starts to run, playfully chasing the first corgi.",
+    "The first corgi maintains its pace, the second corgi getting closer.",
+    "Both corgis are running side by side, their short legs moving quickly.",
+    "The second corgi starts to take the lead, the first corgi following closely.",
+    "Both corgis continue running, their tails wagging happily as they race.",
+    "The first corgi begins to catch up, the two corgis running neck and neck.",
+]
