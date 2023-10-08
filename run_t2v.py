@@ -20,4 +20,4 @@ prompts = [
 # DirecT2V sample
 result = pipe(prompt=prompts, generator=torch.Generator('cuda').manual_seed(10)).images
 result = [(r * 255).astype("uint8") for r in result]
-imageio.mimsave("video_ours.mp4", result, fps=6)
+imageio.mimsave("video_out.mp4", result, fps=6)
