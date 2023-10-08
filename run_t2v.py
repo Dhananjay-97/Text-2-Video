@@ -1,6 +1,6 @@
 import torch
 import imageio
-from direct2v_zeroshot import DirecT2VPipeline
+from t2v_main import T2VPipeline
 
 model_id = "runwayml/stable-diffusion-v1-5"
 pipe = DirecT2VPipeline.from_pretrained(model_id, torch_dtype=torch.float16).to("cuda")
