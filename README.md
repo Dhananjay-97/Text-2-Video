@@ -8,3 +8,8 @@ The running code script is in `run_t2v.py`.
 ```
 python run_t2v.py
 ```
+
+## Steps 
+1. clone the repository
+2. install requirements
+3. run 'run_t2v.py' file
