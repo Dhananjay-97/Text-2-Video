@@ -12,7 +12,9 @@ The running code script is in `run_t2v.py`.
 python run_t2v.py
 ```
 
-## Steps 
-1. clone the repository
-2. install requirements
-3. run 'run_t2v.py' file
+## Steps
+
+1. Open colab notebook
+2. clone the repository
+3. install requirements
+4. run 'run_t2v.py' file
