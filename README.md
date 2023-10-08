@@ -19,18 +19,3 @@ The running code can be found in `run_direct2v.py`. We used PyTorch 1.13.0 and D
 ```
 python run_direct2v.py
 ```
-
-## 🔥 TODOs
-- [X] Upload code
-- [ ] Implement a demo using the ChatGPT API
-- [ ] Improve efficiency
-
-## Cite As
-```
-@article{hong2023large,
-  title={Large Language Models are Frame-level Directors for Zero-shot Text-to-Video Generation},
-  author={Hong, Susung and Seo, Junyoung and Hong, Sunghwan and Shin, Heeseong and Kim, Seungryong},
-  journal={arXiv preprint arXiv:2305.14330},
-  year={2023}
-}
-```
