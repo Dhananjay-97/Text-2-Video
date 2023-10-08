@@ -349,7 +349,7 @@ def create_motion_field_and_warp_latents(motion_field_strength_x, motion_field_s
     return warped_latents
 
 
-class DirecT2VPipeline(StableDiffusionPipeline):
+class T2VPipeline(StableDiffusionPipeline):
     r"""
     Pipeline for zero-shot text-to-video generation using Stable Diffusion.
 
