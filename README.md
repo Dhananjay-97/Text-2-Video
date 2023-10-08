@@ -1,6 +1,8 @@
 # Text-to-Video Generation
 
-**Overall pipeline of DirecT2V.** Our framework consists of two parts: directing an abstract user prompt with an LLM director (GPT-4) and video generation with a modified T2I diffusion (Stable Diffusion).
+**Overall pipeline of T2V consists of two parts: 
+1. user prompt with
+2. video generation with a diffusion (Stable Diffusion).
 
 ## 🗃️: Code
 
