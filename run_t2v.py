@@ -17,7 +17,7 @@ prompts = [
     "The first corgi begins to catch up, the two corgis running neck and neck.",
 ]
 
-# DirecT2V sample
+# T2V sample
 result = pipe(prompt=prompts, generator=torch.Generator('cuda').manual_seed(10)).images
 result = [(r * 255).astype("uint8") for r in result]
 imageio.mimsave("video_out.mp4", result, fps=6)
