@@ -14,7 +14,7 @@ https://youtube.com/shorts/Qg73QNG7lyI?si=x98I1HVUy4rvQe2x
 
 ## 🗃️: Code
 
-The running code script is in `run_direct2v.py`.
+The running code script is in `run_t2v.py`.
 ```
-python run_direct2v.py
+python run_t2v.py
 ```
