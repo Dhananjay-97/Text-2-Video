@@ -1,4 +1,4 @@
-# Large Language Models are Frame-level Directors for Zero-shot Text-to-Video Generation
+# Text-to-Video Generation
 <a href="https://arxiv.org/abs/2305.14330"><img src="https://img.shields.io/badge/arXiv-2305.14330-B31B1B"></a>
 
 ## 🎥 Zero-shot Video Demo
@@ -15,7 +15,7 @@ https://github.com/KU-CVLAB/DirecT2V/assets/5498512/b721aa65-8156-4fdc-a371-db6e
 
 ## 🗃️: Code
 
-The running code can be found in `run_direct2v.py`. We used PyTorch 1.13.0 and Diffusers 1.19.3.
+The running code script is in `run_direct2v.py`.
 ```
 python run_direct2v.py
 ```
